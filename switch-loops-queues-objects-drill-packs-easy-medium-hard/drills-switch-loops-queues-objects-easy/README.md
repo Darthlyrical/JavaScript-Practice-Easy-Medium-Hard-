@@ -13,14 +13,14 @@ This is an easier drill pack than the medium set, but it trains the same core sk
 - `counter-basics.js`: implement-me starter functions
 - `counter-basics.spec.js`: tests with expected behavior
 - `README.md`: this guide
-- `package.json`: local `npm run test` command
+- parent `package.json`: root test scripts
 
 ## Run This Pack
 
-From inside `drills-switch-loops-queues-objects-easy`:
+From parent folder `switch-loops-queues-objects-drill-packs-easy-medium-hard`:
 
 ```bash
-npm run test
+npm run test:easy
 ```
 
 ## Why This Is Easier

@@ -16,14 +16,14 @@ Concepts trained:
 - `stand-drills.js`: unimplemented functions
 - `stand-drills.spec.js`: tests for all expected behavior
 - `README.md`: this guide
-- `package.json`: local script to run only this pack
+- parent `package.json`: root test scripts
 
 ## Run This Pack
 
-From inside `drills-switch-loops-queues-objects-hard`:
+From parent folder `switch-loops-queues-objects-drill-packs-easy-medium-hard`:
 
 ```bash
-npm run test
+npm run test:hard
 ```
 
 ## What Makes This Harder

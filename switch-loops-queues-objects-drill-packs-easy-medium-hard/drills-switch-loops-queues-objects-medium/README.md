@@ -16,12 +16,12 @@ Core skills trained:
 - `juice-practice.spec.js`: tests that define required behavior
 - `README.md`: implementation guide
 
-## Run This Pack Only
+## Run This Pack
 
-From project root:
+From parent folder `switch-loops-queues-objects-drill-packs-easy-medium-hard`:
 
 ```bash
-npm test -- --runInBand drills-switch-loops-queues-objects-medium/juice-practice.spec.js
+npm run test:medium
 ```
 
 ## Challenge Story

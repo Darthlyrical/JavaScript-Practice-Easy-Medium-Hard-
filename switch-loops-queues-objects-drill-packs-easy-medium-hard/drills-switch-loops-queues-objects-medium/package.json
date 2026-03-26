@@ -1,8 +1,0 @@
-{
-  "name": "drills-switch-loops-queues-objects-medium",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "test": "npm --prefix .. test -- --runInBand drills-switch-loops-queues-objects-medium/juice-practice.spec.js"
-  }
-}

@@ -1,0 +1,15 @@
+{
+  "name": "switch-loops-queues-objects-drill-packs-easy-medium-hard",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:easy": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --runInBand drills-switch-loops-queues-objects-easy/counter-basics.spec.js",
+    "test:medium": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --runInBand drills-switch-loops-queues-objects-medium/juice-practice.spec.js",
+    "test:hard": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --runInBand drills-switch-loops-queues-objects-hard/stand-drills.spec.js",
+    "test": "npm run test:easy && npm run test:medium && npm run test:hard"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
