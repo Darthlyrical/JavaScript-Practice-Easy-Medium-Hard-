@@ -1,0 +1,8 @@
+{
+  "name": "drills-switch-loops-queues-objects-easy",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "npm --prefix .. test -- --runInBand drills-switch-loops-queues-objects-easy/counter-basics.spec.js"
+  }
+}
