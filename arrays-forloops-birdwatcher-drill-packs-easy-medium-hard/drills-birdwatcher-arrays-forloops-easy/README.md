@@ -18,7 +18,7 @@ Concepts covered:
 
 ## Run Tests
 
-From parent folder `drills-birdwatcher-arrays-forloops-easy-medium-hard`:
+From parent folder `arrays-forloops-birdwatcher-drill-packs-easy-medium-hard`:
 
 ```bash
 npm run test:easy
